@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@600&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    color: white;
+}
+
+body{
+    padding: 1.5% 5%;
+    background-color: rgba(0, 0, 0, 0.549);
+    background-blend-mode: soft-light;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backdrop-filter: blur(1px);
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    width: 70%;
+    list-style: none;
+    border-bottom: rgb(255, 255, 255) 2px solid;
+}
+
+.heading{
+    display: flex;
+    margin-top: 1.5em;
+    padding: 2em 0;
+    font-size:  1.5rem;
+    line-height: 3.5rem;
+}
+
+.learn-more{
+    padding: .5em 1.5em;
+    border: solid white 2px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.description{
+    height: 20vh;
+    width: 17vw;
+    background-color: rgba(174, 174, 174, 0.35);
+    backdrop-filter: blur(10px);
+    /* display: inline-block; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    z-index: -1;
+}
+
+.description > .icon{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 1;
+}
+.icon1::before{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f058";
+    position: absolute;
+    color: black;
+    size: 10px;
+    top: 25%;
+    left: 40%;
+}
+.icon2::before{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f0eb";
+    position: absolute;
+    color: black;
+    size: 10px;
+    top: 25%;
+    left: 40%;
+}
+.description > .description-text{
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.description-1{
+    /* position: absolute; */
+    top: 9em;
+    right: 5em;
+}
+
+.description-2{
+    left: 40%;
+    bottom: 0;
+    top: 80%;
+}
+
+
+.line1{
+    height: 3em;
+    position: absolute;
+    width: 1px;
+    background-color: #fff;
+    /* bottom: 0; */
+    bottom: 0;
+    left: 50%;
+    top: 100%;
+    display: inline-block;
+}
+
+.circle1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    /* bottom: 0; */
+    bottom: -3.1em;
+    left: 48%;
+    
+    /* left: 5%; */
+    
+    
+}
+
+.line2{
+    height: 1px;
+    position: absolute;
+    width: 3.3em;
+    background-color: #fff;
+    display: inline-block;
+    /* transform: rotate(90deg); */
+    left: 100%;
+    top: 50%;
+
+}
+
+.circle2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: -3.8em;
+    top: 47%;
+    /* left: 3.3em; */
+}    
+
+.item-call{
+    position: relative;
+}
+.item-call::before{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f095";
+    position: absolute;
+    right: 105%;
+    top: 50%;
+    bottom: 50%;
+}

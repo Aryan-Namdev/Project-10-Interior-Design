@@ -11,12 +11,12 @@
 ![Chrome OS](https://img.shields.io/badge/chrome%20os-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)
 
 * ## Link for netlify:
-    [Digital Marketing Company Site](https://digital-marketing-company.netlify.app/)
+    [Interior design site](https://interior-design-company-page.netlify.app/)
 
 
  * ## Overview
 
-![alt text](/Project%2010.png)
+![alt text](/)
 
 * ## Things i learned from this Project:
     1. No New learnings.
